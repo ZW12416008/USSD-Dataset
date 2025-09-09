@@ -28,8 +28,8 @@ Weather: sunny, avg. temp. 18.5°C
 Duration: ≥1 week continuous recording per site
 Total audio collected: over 3000 hours
 From each site’s recordings, samples were extracted at regular intervals to ensure spatial and temporal balance.
-<img width="1014" height="886" alt="image" src="https://github.com/user-attachments/assets/628ad347-4078-430e-86a1-4c037c5bebeb" />
-<img width="1014" height="886" alt="image" src="https://github.com/user-attachments/assets/42efaca8-0469-41e9-8434-b638ceb9f8e0" />
+<img width="817" height="488" alt="image" src="https://github.com/user-attachments/assets/6b888fa6-9d3e-4bb5-a419-d9e60b5e52f9" />
+<img width="826" height="183" alt="image" src="https://github.com/user-attachments/assets/a711a5b3-0c4e-4ed9-9763-bcf551d4c78a" />
 
 Annotation Process
 The dataset was labeled through a crowdsourcing mechanism with multiple steps:
