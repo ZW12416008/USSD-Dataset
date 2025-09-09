@@ -1,4 +1,3 @@
-<img width="1014" height="886" alt="image" src="https://github.com/user-attachments/assets/ab0e5e99-ac2b-4c9e-970e-9c6d11900c20" />！！！！
 USSD Dataset (Urban Salient Sound Dataset)
 This repository provides the Urban Salient Sound Dataset (USSD), a crowdsourced dataset of salient sound events collected in public spaces of Dalian, China. The dataset is designed for sound event detection and urban acoustic environment analysis.
 
