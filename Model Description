@@ -1,0 +1,31 @@
+Base Model
+This project employs the ECAPA-TDNN model, an open-source architecture for speaker and sound event representation.
+Repository: SpeechBrain
+License: Apache 2.0
+The model was originally developed for robust speaker verification and has been widely adapted in speech and sound event recognition tasks.
+Adaptation for USSD
+To fit the Urban Salient Sound Dataset (USSD), we performed fine-tuning and multi-feature training on the ECAPA-TDNN backbone:
+Fine-tuning:
+The pre-trained SpeechBrain ECAPA-TDNN model was fine-tuned on USSD to capture salient sound events in urban acoustic environments.
+Multi-feature training:
+We integrated three acoustic features to enhance model robustness against complex noise:
+Spectrogram (linear frequency scale, capturing full spectral energy distribution)
+Mel-spectrogram (perceptually motivated frequency scaling, emphasizing human hearing sensitivity)
+Mel-frequency cepstral coefficients (MFCCs) (compact representation of spectral envelope, widely used in speech/audio recognition)
+These features were jointly used as input representations, allowing the model to learn complementary information across different acoustic domains.
+Training strategy:
+Optimizer: Adam with learning rate warmup
+Data augmentation: Mixup and SpecAugment
+Evaluation metrics: classification accuracy on both fine-grained (22 classes) and coarse (5 categories) sound events
+Benchmark Results on USSD
+Accuracy (22 classes): 91.3%
+Accuracy (5 categories): 93.9%
+Best-performing class: Mechanical sounds (99.1%)
+Most common errors: confusions within traffic vs. mechanical sounds
+These results confirm that the adapted ECAPA-TDNN, trained with multiple acoustic features, effectively detects salient sound events in diverse urban contexts.
+Acknowledgement
+This work builds upon the open-source SpeechBrain project.
+If you use our model adaptation, please also cite:
+SpeechBrain:
+Mirco Ravanelli, Titouan Parcollet, Peter Plantinga, et al. "SpeechBrain: A General-Purpose Speech Toolkit." arXiv preprint arXiv:2106.04624 (2021).
+USSD
