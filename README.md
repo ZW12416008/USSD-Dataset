@@ -23,7 +23,7 @@ Recording equipment:
 Device: Luyin sound recorders LY-M-01 (software v1.7.2)
 Format: WAV, mono, 16-bit, 48 kHz
 Recording campaign:
-Period: October 2024
+Period: September to October 2024
 Weather: sunny, avg. temp. 18.5°C
 Duration: ≥1 week continuous recording per site
 Total audio collected: over 3000 hours
